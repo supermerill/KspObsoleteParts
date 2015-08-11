@@ -1,2 +1,11 @@
-# KspObsoleteParts
-Simple Plugin to remove obsoloete part from the vab categories: just add TechObsolote = generaRocketry to your PART config
+# KspObsoleteParts  
+Simple Plugin to remove obsolete part from the vab categories:  
+just add  
+TechObsolete = generaRocketry   
+to your PART config  
+
+ModuleManager Example:  
+@PART[ProbeCoreSphere]  
+{  
+	TechObsolete = electrics  
+}  
